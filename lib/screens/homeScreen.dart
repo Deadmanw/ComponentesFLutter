@@ -11,7 +11,7 @@ class HomeScreen extends StatelessWidget {
 
     return Scaffold(
         appBar: AppBar(
-          title: const Text('Welcome'),
+          title: const Text('Widgets Flutter'),
           centerTitle: true,
           elevation: 0,
           actions: const [
@@ -32,7 +32,7 @@ class HomeScreen extends StatelessWidget {
               );
             },
             separatorBuilder: (_, __) {
-              return const Padding(padding: EdgeInsets.all(2));
+              return const Padding(padding: EdgeInsets.all(5));
             },
             itemCount: menuOptions.length));
   }

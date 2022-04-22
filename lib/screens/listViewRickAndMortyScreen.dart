@@ -18,6 +18,7 @@ class ListViewRickAndMortyScreen extends StatelessWidget {
       body: ListView.separated(
           itemBuilder: (context, index) {
             return ListTile(
+              shape: CircleBorder(),
               title: Text(
                 options[index],
                 textAlign: TextAlign.center,

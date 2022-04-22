@@ -1,4 +1,5 @@
 import 'package:compoentesvarios/router/appRoutes.dart';
+import 'package:compoentesvarios/screens/cardScreen.dart';
 import 'package:compoentesvarios/widgets/appBarP.dart';
 import 'package:flutter/material.dart';
 
@@ -11,8 +12,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Varios',
-      //home: const ListView2Screen(),
+      title: 'Componentes',
+      //home: const CardScreen(), //pagina principal
       initialRoute: AppRoutes.initialRoute, //'home',
       routes: AppRoutes.getAppRoutes(),
       onGenerateRoute: AppRoutes.onGenerateRoute,
