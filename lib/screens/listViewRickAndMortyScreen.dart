@@ -25,8 +25,8 @@ class ListViewRickAndMortyScreen extends StatelessWidget {
               ),
               trailing: const Icon(Icons.arrow_forward),
               onTap: () {
-                final game = options[index];
-                print(game);
+                final option = options[index];
+                print(option);
               },
             );
           },

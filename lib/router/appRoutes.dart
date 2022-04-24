@@ -23,10 +23,10 @@ class AppRoutes {
         name: 'list view 1',
         screen: const ListView1Screen()),
     MenuOption(
-        route: 'detalles',
+        route: 'alertas',
         icon: Icons.details,
-        name: 'detalles screen',
-        screen: const DetallesScreen()),
+        name: 'alertas screen',
+        screen: const AlertScreen()),
     MenuOption(
         route: 'card',
         icon: Icons.card_giftcard,
