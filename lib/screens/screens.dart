@@ -10,3 +10,4 @@ export 'package:compoentesvarios/screens/animatedScreen.dart';
 export 'package:compoentesvarios/screens/inputsScreens.dart';
 export 'package:compoentesvarios/screens/sliderScreen.dart';
 export 'package:compoentesvarios/screens/loginScreen.dart';
+export 'package:compoentesvarios/screens/listViewBuilderScreen.dart';
