@@ -8,3 +8,5 @@ export 'package:compoentesvarios/screens/cardScreen.dart';
 export 'package:compoentesvarios/screens/avatarScreen.dart';
 export 'package:compoentesvarios/screens/animatedScreen.dart';
 export 'package:compoentesvarios/screens/inputsScreens.dart';
+export 'package:compoentesvarios/screens/sliderScreen.dart';
+export 'package:compoentesvarios/screens/loginScreen.dart';

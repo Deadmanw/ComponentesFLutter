@@ -13,6 +13,11 @@ class AppRoutes {
         name: 'homeScreen',
         screen: const HomeScreen()), */
     MenuOption(
+        route: 'login',
+        icon: Icons.login,
+        name: 'Login Screen',
+        screen: const LoginScreen()),
+    MenuOption(
         route: 'listView2',
         icon: Icons.light_sharp,
         name: 'List view Rick and morty',
@@ -47,6 +52,11 @@ class AppRoutes {
         icon: Icons.format_align_left_rounded,
         name: 'Input Screen',
         screen: const InputsScreen()),
+    MenuOption(
+        route: 'slider',
+        icon: Icons.sledding,
+        name: 'Slider Screen',
+        screen: const SliderScreen()),
   ];
 
   static Map<String, Widget Function(BuildContext)> getAppRoutes() {
