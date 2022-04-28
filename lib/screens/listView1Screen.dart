@@ -31,9 +31,9 @@ class ListView1Screen extends StatelessWidget {
             indent: 3,
           ),
           ListTile(
-            title: Text('Lista opciones'),
-            subtitle: Text('o no?'),
-            leading: Icon(Icons.ac_unit),
+            title: const Text('Lista opciones'),
+            subtitle: const Text('o no?'),
+            leading: const Icon(Icons.ac_unit),
             onTap: () {
               print('Hola');
             },
